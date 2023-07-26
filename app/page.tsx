@@ -243,6 +243,77 @@ export default function Home() {
             </a>
           </div>
         </Card>
+        <Card
+          hoverable
+          style={{
+            backgroundColor: "#acacac",
+          }}
+        >
+          <div>
+            <Image
+              src="/sanity.svg"
+              alt="Sanity Logo"
+              width={180}
+              height={100}
+              priority
+            />
+          </div>
+          <div>
+            <a
+              href="https://www.sanity.io/"
+              className={styles.card}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h2>
+                Headless <span>-&gt;</span>
+              </h2>
+              <p>
+                Treat content as data—actionable and scalable across your
+                business
+              </p>
+            </a>
+
+            <a
+              href="https://www.sanity.io/solutions"
+              className={styles.card}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h2>
+                Use Cases <span>-&gt;</span>
+              </h2>
+              <p>Sanity solves the unique problems of modern organisations.</p>
+            </a>
+
+            <a
+              href="https://www.sanity.io/guides"
+              className={styles.card}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h2>
+                Tutorials <span>-&gt;</span>
+              </h2>
+              <p>
+                Introductions, step-by-step tutorials, and deep dives into the
+                many features.
+              </p>
+            </a>
+
+            <a
+              href="https://www.sanity.io/blog"
+              className={styles.card}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h2>
+                Blog <span>-&gt;</span>
+              </h2>
+              <p>Connect workflows and unlock features.</p>
+            </a>
+          </div>
+        </Card>
       </div>
     </main>
   );

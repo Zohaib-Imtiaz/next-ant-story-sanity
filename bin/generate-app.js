@@ -31,6 +31,7 @@ try {
 
 async function main() {
   try {
+    console.log(`Template from ${git_repo}`)
     console.log("Downloading files...");
     execSync(`git clone --depth 1 ${git_repo} ${projectPath}`);
 
